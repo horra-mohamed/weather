@@ -1,0 +1,182 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.App {
+  background:linear-gradient(rgb(146, 209, 248),rgb(255, 2, 247));
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 650px;
+  text-align: center;
+}
+
+.app-name {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+.search-bar {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.city-search {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #a98b8b;
+  border-radius: 8px;
+  outline: none;
+  background: whitesmoke;
+  text-align: center;
+  color: black;
+}
+
+.city-search:focus {
+  border-color: #007bff;
+}
+
+
+.error-message {
+  color: #ff4d4d;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+
+h2 {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #333;
+}
+
+img {
+  margin: 10px 0;
+}
+
+p {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #666;
+}
+
+
+span {
+  font-size: 14px;
+  color: #777;
+  display: block;
+  margin-bottom: 10px;
+}
+
+  
+.loader {
+  margin: 20px 0;
+}
+
+.haha{
+  font-size: 20px;
+  margin: 10px 0;
+  color: #333;
+  margin-top: 0px;
+}
+
+.forecast {
+  margin-top: 20px;
+}
+
+.forecast-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.forecast-day {
+  background-color: #88c7e9;
+  border-radius: 8px;
+  padding: 5px;
+  width: 100px;
+  text-align: center;
+  margin: 5px;
+}
+
+.forecast-day p {
+  margin: 5px 0;
+  font-size: 11px;
+}
+
+
+
+.favorites-container {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.favorites-container h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.favorites-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.favorites-item {
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 16px;
+  color: #555;
+}
+
+.favorites-item:hover {
+  background-color: #007bff;
+  color: white;
+  transform: translateY(-3px);
+}
+
+.favorites-item:last-child {
+  margin-bottom: 0;
+}
+
+.favorite-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.favorite-button:hover {
+  background-color: #0056b3;
+}
+
+
+
